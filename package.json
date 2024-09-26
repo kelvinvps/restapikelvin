@@ -4,11 +4,15 @@
   "description": "Bot WhatsApp untuk screenshot website",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
+    "next": "latest",
     "puppeteer": "^13.5.1",
-    "express": "^4.17.1"
+    "react": "latest",
+    "react-dom": "latest"
   }
 }
