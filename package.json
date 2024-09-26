@@ -1,0 +1,14 @@
+{
+  "name": "wa-screenshot-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp untuk screenshot website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "puppeteer": "^13.5.1",
+    "express": "^4.17.1"
+  }
+}
